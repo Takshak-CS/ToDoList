@@ -2,16 +2,19 @@ import TodoList from "./assets/components/TodoList"
 import TodoInput from "./assets/components/TodoInput";
 import {useState} from 'react'
 function App() {
-  useState(Todos,setTodos) = [
-    `Go to the gym`,
-    `Eat more fruits and vege`,
-    `Pick up the kids from school`
-  ]
+  // const [Todos,setTodos]= useState(["go to gym"]) 
+  // const todos=["go to the gym",
+  //           "cut your nails"
+  // ]
+
+  const [todos,setTodos]=useState(["go to the gym",
+                                    "cut your nails",
+                                    "take a bath",])
  return(
   
   <>
-    <TodoInput todos={Todos}/>
-    <TodoList todos={Todos}/>
+    <TodoInput todos={todos}/>
+    <TodoList todos={todos}/>
   </>
  )
 }
