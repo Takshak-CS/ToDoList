@@ -19,3 +19,10 @@ A minimal and responsive ToDo List web application to manage your daily tasks. U
 
 ## 📂 Project Structure
 
+todolist-project/
+│
+├── index.html
+├── style.css
+├── app.js
+└── README.md
+
